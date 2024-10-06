@@ -1,0 +1,65 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "AI Chatbot web app",
+    "desc": "Developed an AI chatbot with Next.js, tailwindcss, shadcn and langchain to build an AI chatbot with the help of GROQ AI. It can be fine-tuned with the help of several buttons given in the dashboard, to get the desired output from the chatbot.",
+    "start-date": "Octuber 05, 2024",
+    "end-date": "Octuber 05, 2024"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Fullstack accounting app for small manufactuerers/ retailers/ wholesalers",
+    "desc": "Developed a Fullstack application with Next.js, prisma, tailwindcss, shadcn to build an accounting software. Follow the tutorial on how to use it by clicking on learn more and search for 'How to use this software' on that page.",
+    "start-date": "Octuber 05, 2024",
+    "end-date": "Octuber 05, 2024"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Finance tracker",
+    "desc": "Developed a finance tracker web app, where one can track their income, expenses and their total net worth. It also has built in analytics to visualise your data, alongwith customizable dates to get in-depth of your finances.",
+    "start-date": "Octuber 05, 2024",
+    "end-date": "Octuber 05, 2024"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "MERN Stack Posts App",
+    "desc": "Developed a MERN Stacks posts app, where the users will need to authenticate (login/register) to post, edit it or even delete, similar to Twitter/X, with the ability to like, unlike and comment on that post (comment is write only and cannot be deleted or edited). Alongwith this, there is also a forgot password functionality built with the login form.",
+    "start-date": "Octuber 05, 2024",
+    "end-date": "Octuber 05, 2024"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Next-js Strapi E-commerce (Frontend)",
+    "desc": "Developed an e-commerce frontend using nextjs and tailwind css, and integrated it with a strapi backend, and accepting payments with razorpay, and dynamically obtaining the carousel data from the strapi backend.",
+    "start-date": "Octuber 05, 2024",
+    "end-date": "Octuber 05, 2024"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Strapi E-commerce (Backend)",
+    "desc": "Developed an e-commerce backend with strapi, integrated razorpay for payments, made a custom search plugin in strapi, and hosted the service on render.com.",
+    "start-date": "Octuber 05, 2024",
+    "end-date": "Octuber 05, 2024"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "React Native Base App",
+    "desc": "Developed a foundational onboarding app using React Native. Designed the onboarding UI, login screen, search functionality, result display, and user profile screen. This app can be easily extended for building various applications.",
+    "start-date": "Octuber 05, 2024",
+    "end-date": "Octuber 05, 2024"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "React Native News App",
+    "desc": "Developed a React Native news app that fetches data from an API and presents it to users. The app also features an integrated weather viewer and a straightforward note-taking functionality.",
+    "start-date": "Octuber 05, 2024",
+    "end-date": "Octuber 05, 2024"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Flask ML Chatbot",
+    "desc": "Built a simple chatbot web chat interface, with Flask, scikit-learn, numpy, pandas, that uses AI to chat with users. The data comes from a data.csv file inside the working directory.",
+    "start-date": "Octuber 05, 2024",
+    "end-date": "Octuber 05, 2024"
+  }
+]
