@@ -24,9 +24,6 @@ export default function Projects() {
           value={state}
           onChange={(e) => setState(e.target.value)}
         />
-        {/* <Button type="submit">
-          <Search />
-        </Button> */}
       </div>
 
       <div className="grid md:grid-cols-2 gap-5 order-2 md:order-1">
