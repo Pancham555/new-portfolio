@@ -52,9 +52,7 @@ export default function Blogs() {
                       width={1000}
                       height={600}
                       className="rounded-lg w-full h-48 duration-150 object-cover"
-                      src={
-                        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                      }
+                      src={data.image ?? "/thumbnail.jpeg"}
                       alt="image"
                     />
                     <CardHeader className="py-3">
@@ -64,7 +62,7 @@ export default function Blogs() {
                     </CardHeader>
                     <CardContent>
                       <CardDescription className="overflow-ellipsis line-clamp-4">
-                        {data.body.raw.replace(/\_\_(\S(.*?\S)?)\_\_/gm, "")}
+                        {data.desc}
                       </CardDescription>
                       <div className="py-3">
                         <span className="text-muted-foreground text-sm">

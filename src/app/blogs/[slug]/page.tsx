@@ -1,5 +1,7 @@
 import { format, parseISO } from "date-fns";
 import { allBlogs } from "contentlayer/generated";
+import Navbar from "@/components/navbar";
+import Markdown from "./components/markdown";
 
 export const generateStaticParams = async () =>
   allBlogs.map((blog) => ({ slug: blog._raw.flattenedPath }));
@@ -16,19 +18,24 @@ const BlogLayout = ({ params }: { params: { slug: string } }) => {
     return <div>Blog not found for slug: {params.slug}</div>;
   }
 
+  const jsonLd = blog._raw;
   return (
-    <article className="mx-auto max-w-xl py-8">
-      <div className="mb-8 text-center">
-        <time dateTime={blog.date} className="mb-1 text-xs text-gray-600">
-          {format(parseISO(blog.date), "LLLL d, yyyy")}
-        </time>
-        <h1 className="text-3xl font-bold">{blog.title}</h1>
-      </div>
-      <div
-        className="[&>*]:mb-3 [&>*:last-child]:mb-0"
-        dangerouslySetInnerHTML={{ __html: blog.body.html }}
-      />
-    </article>
+    <div className="max-w-5xl mx-auto py-5 md:py-10 px-5">
+      <Navbar />
+      <article className="mx-auto py-8">
+        <div className="mb-8 text-center">
+          <time dateTime={blog.date} className="mb-1 text-xs text-gray-600">
+            {format(parseISO(blog.date), "LLLL d, yyyy")}
+          </time>
+          <h1 className="text-3xl font-bold">{blog.title}</h1>
+        </div>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <Markdown data={blog.body.code} />
+      </article>
+    </div>
   );
 };
 

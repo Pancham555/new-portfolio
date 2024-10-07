@@ -10,7 +10,7 @@ export default function Socials() {
       </CardHeader>
       <CardContent>
         <a href="https://x.com/pancham_barman" target="_blank">
-          <Card className="px-5 py-16 bg-black relative">
+          <Card className="px-5 py-10 bg-black relative">
             <ExternalLink className="absolute bottom-5 left-5 text-white" />
             <svg
               version="1.1"

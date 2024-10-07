@@ -43,7 +43,7 @@ export default function Projects() {
                   width={1000}
                   height={600}
                   className="rounded-lg w-full min-h-48 max-h-72 duration-150 object-cover"
-                  src={val.image}
+                  src={val.image ?? "/thumbnail.jpeg"}
                   alt="image"
                 />
                 <CardHeader className="py-3">
