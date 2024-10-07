@@ -1,7 +1,6 @@
 "use client";
 import Navbar from "@/components/navbar";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -10,7 +9,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Search } from "lucide-react";
 import Image from "next/image";
 import { compareDesc, format, parseISO } from "date-fns";
 import { allBlogs } from "contentlayer/generated";
@@ -32,9 +30,9 @@ export default function Blogs() {
           value={state}
           onChange={(e) => setState(e.target.value)}
         />
-        <Button type="submit">
+        {/* <Button type="submit">
           <Search />
-        </Button>
+        </Button> */}
       </div>
       <div className="grid md:grid-cols-[7fr_3fr] gap-5">
         <div className="grid md:grid-cols-2 gap-5 order-2 md:order-1">
