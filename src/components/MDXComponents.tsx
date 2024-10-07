@@ -8,14 +8,14 @@ import TableWrapper from "./TableWrapper";
 import { Button } from "./ui/button";
 
 export const components: MDXComponents = {
-  // @ts-ignore
+  // @ts-expect-error The code is correct but it is giving types error
   img: Image,
   TOCInline,
-  // @ts-ignore
+  // @ts-expect-error The code is correct but it is giving types error
   a: CustomLink,
-  // @ts-ignore
+  // @ts-expect-error The code is correct but it is giving types error
   pre: Pre,
-  // @ts-ignore
+  // @ts-expect-error The code is correct but it is giving types error
   table: TableWrapper,
   BlogNewsletterForm,
   h1: ({ children }) => <h1 className="text-4xl font-medium">{children}</h1>,
