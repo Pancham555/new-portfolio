@@ -24,7 +24,7 @@ export default function Latest() {
       <CardContent className="p-0">
         {blogs.slice(0, 1).map((data, i) => {
           return (
-            <Link href={`${data.url}`}>
+            <Link href={`${data.url}`} key={i}>
               <Card className="border-0">
                 <CardHeader className="py-3">
                   <CardTitle className="overflow-ellipsis line-clamp-1 text-lg">
