@@ -1,5 +1,5 @@
 "use client";
-import { components } from "@/components/MDXComponents";
+import { components } from "@/components/markdown/MDXComponents";
 
 import { MDXLayoutRenderer } from "pliny/mdx-components.js";
 

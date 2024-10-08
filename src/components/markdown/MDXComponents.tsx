@@ -5,7 +5,7 @@ import type { MDXComponents } from "mdx/types";
 import Image from "./Image";
 import CustomLink from "./Link";
 import TableWrapper from "./TableWrapper";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 export const components: MDXComponents = {
   // @ts-expect-error The code is correct but it is giving types error

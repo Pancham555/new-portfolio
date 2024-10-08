@@ -45,7 +45,7 @@ export default function Blogs() {
             .map((data, i) => {
               return (
                 <Link href={`${data.url}`} key={i}>
-                  <Card className="border-0">
+                  <Card className="border-0 shadow-none bg-transparent">
                     <Image
                       width={1000}
                       height={600}
@@ -53,16 +53,16 @@ export default function Blogs() {
                       src={data.image ?? "/thumbnail.jpeg"}
                       alt="image"
                     />
-                    <CardHeader className="py-3">
+                    <CardHeader className="pt-3 pb-0 px-0">
                       <CardTitle className="overflow-ellipsis line-clamp-2 text-lg">
                         {data.title}
                       </CardTitle>
                     </CardHeader>
-                    <CardContent>
+                    <CardContent className="px-0">
                       <CardDescription className="overflow-ellipsis line-clamp-4">
                         {data.desc}
                       </CardDescription>
-                      <div className="py-3">
+                      <div className="pb-3">
                         <span className="text-muted-foreground text-sm">
                           Published on:{" "}
                           {format(parseISO(data.date), "LLLL d, yyyy")}

@@ -38,7 +38,7 @@ export default function Projects() {
           )
           .map((val, i) => {
             return (
-              <Card className="border-0" key={i}>
+              <Card className="border-0 bg-transparent shadow-none" key={i}>
                 <Image
                   width={1000}
                   height={600}
@@ -46,12 +46,12 @@ export default function Projects() {
                   src={val.image ?? "/thumbnail.jpeg"}
                   alt="image"
                 />
-                <CardHeader className="py-3">
+                <CardHeader className="pt-3 pb-0 px-0">
                   <CardTitle className="overflow-ellipsis line-clamp-2 text-lg">
                     {val.title}
                   </CardTitle>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="px-0">
                   <CardDescription className="overflow-ellipsis line-clamp-4">
                     {val.desc}
                   </CardDescription>
