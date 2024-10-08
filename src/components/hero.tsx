@@ -29,8 +29,16 @@ export default function Hero() {
       </CardHeader>
       <CardContent>
         <CardDescription className="text-lg">
-          Hey there 👋, I am a B.com student who is learning fullstack and
-          data-science.
+          Hey there 👋, I&apos;m a B.com student who is learning fullstack and
+          data-science. I&apos;m a self-taught fullstack developer and till this
+          date he has learned several fullstack and data-science technologies
+          like HTML, CSS, Javascript, Typescript, Tailwind.css, Bootstrap,
+          React.js, React Native, Redux.js, Next.js, Three.js, Node.js, MongoDB,
+          SQL, Postgresql, Mongoose.js, PostgresSQL, Express.js, Strapi, Git,
+          Github, Python, Flask, Django, Django Rest, Scikit-Learn, Numpy,
+          Pandas, Matplotlib, Seaborn, Linux commands, PHP etc and is on it's
+          way to learn several other technologies like the tensorflow in the
+          near future!
         </CardDescription>
       </CardContent>
     </Card>

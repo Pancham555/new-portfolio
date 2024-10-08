@@ -22,7 +22,7 @@ const BlogLayout = ({ params }: { params: { slug: string } }) => {
   return (
     <div className="max-w-5xl mx-auto py-5 md:py-10 px-5">
       <Navbar />
-      <article className="mx-auto py-8">
+      <article className="mx-auto py-8 px-5">
         <div className="mb-8 text-center">
           <time dateTime={blog.date} className="mb-1 text-xs text-gray-600">
             {format(parseISO(blog.date), "LLLL d, yyyy")}
