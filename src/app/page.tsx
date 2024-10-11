@@ -6,7 +6,7 @@ import Socials from "@/components/socials";
 
 export default function Home() {
   return (
-    <div className="max-w-5xl mx-auto py-5 md:py-10 px-5">
+    <main className="max-w-5xl mx-auto py-5 md:py-10 px-5">
       <Navbar />
       <div className="grid md:grid-cols-[7fr_3fr] gap-5">
         <Hero />
@@ -19,6 +19,6 @@ export default function Home() {
           <Socials />
         </div>
       </div>
-    </div>
+    </main>
   );
 }

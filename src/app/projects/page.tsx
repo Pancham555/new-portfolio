@@ -15,7 +15,7 @@ import { useState } from "react";
 export default function Projects() {
   const [state, setState] = useState("");
   return (
-    <div className="max-w-5xl mx-auto py-5 md:py-10 px-5">
+    <main className="max-w-5xl mx-auto py-5 md:py-10 px-5">
       <Navbar />
       <div className="flex pb-6 space-x-2">
         <Input
@@ -69,6 +69,6 @@ export default function Projects() {
             );
           })}
       </div>
-    </div>
+    </main>
   );
 }

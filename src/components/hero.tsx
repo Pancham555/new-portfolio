@@ -15,7 +15,10 @@ export default function Hero() {
       <CardHeader className="flex flex-row items-center gap-5">
         <div className="flex flex-wrap flex-row items-center gap-2">
           <Avatar className="w-16 h-16">
-            <AvatarImage src="https://github.com/pancham555.png" />
+            <AvatarImage
+              src="https://github.com/pancham555.png"
+              alt="Profile pic"
+            />
             <AvatarFallback>L</AvatarFallback>
           </Avatar>
 

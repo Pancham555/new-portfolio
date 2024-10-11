@@ -20,7 +20,7 @@ const BlogLayout = ({ params }: { params: { slug: string } }) => {
 
   const jsonLd = blog._raw;
   return (
-    <div className="max-w-5xl mx-auto py-5 md:py-10 px-5">
+    <main className="max-w-5xl mx-auto py-5 md:py-10 px-5">
       <Navbar />
       <article className="mx-auto py-8 px-5">
         <div className="mb-8 text-center">
@@ -35,7 +35,7 @@ const BlogLayout = ({ params }: { params: { slug: string } }) => {
         />
         <Markdown data={blog.body.code} />
       </article>
-    </div>
+    </main>
   );
 };
 
