@@ -9,7 +9,7 @@ export default function Socials() {
         <CardTitle className="text-3xl">Socials</CardTitle>
       </CardHeader>
       <CardContent>
-        <a href="https://x.com/pancham_barman" target="_blank">
+        <a href="https://x.com/pancham_barman" target="_blank" aria-label="X">
           <Card className="px-5 py-10 bg-black relative">
             <ExternalLink className="absolute bottom-5 left-5 text-white" />
             <svg
@@ -23,7 +23,11 @@ export default function Socials() {
           </Card>
         </a>
         <div className="grid grid-cols-3 gap-2 pt-2">
-          <a href="https://github.com/pancham555" target="_blank">
+          <a
+            href="https://github.com/pancham555"
+            target="_blank"
+            aria-label="github"
+          >
             <Card className=" bg-black p-2 py-3 relative">
               <ExternalLink
                 className="absolute bottom-1 left-1 text-white"
@@ -55,7 +59,11 @@ export default function Socials() {
               </svg>
             </Card>
           </a>
-          <a href="https://www.linkedin.com/in/pancham-barman" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/pancham-barman"
+            target="_blank"
+            aria-label="linkedin"
+          >
             <Card className=" bg-black p-2 py-3 relative">
               <ExternalLink
                 className="absolute bottom-1 left-1 text-white"
