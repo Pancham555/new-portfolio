@@ -21,6 +21,6 @@ export const Blog = defineDocumentType(() => ({
 }));
 
 export default makeSource({
-  contentDirPath: "src/app/blogs/data",
+  contentDirPath: "src/app/blogs/data/prod",
   documentTypes: [Blog],
 });

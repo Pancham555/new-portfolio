@@ -25,7 +25,7 @@ export const components: MDXComponents = {
   h5: ({ children }) => <h5 className="text-lg font-medium">{children}</h5>,
   h6: ({ children }) => <h6 className="text-sm font-medium">{children}</h6>,
   button: ({ children }) => <Button>{children}</Button>,
-  ul: ({ children }) => <ul className="list-disc">{children}</ul>,
-  ol: ({ children }) => <ol className="list-decimal">{children}</ol>,
+  ul: ({ children }) => <ul className="list-disc mx-6">{children}</ul>,
+  ol: ({ children }) => <ol className="list-decimal mx-6">{children}</ol>,
   // Add more tags here
 };

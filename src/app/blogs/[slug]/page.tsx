@@ -2,6 +2,7 @@ import { format, parseISO } from "date-fns";
 import { allBlogs } from "contentlayer/generated";
 import Navbar from "@/components/navbar";
 import Markdown from "./components/markdown";
+import Image from "@/components/markdown/Image";
 
 export const generateStaticParams = async () =>
   allBlogs.map((blog) => ({ slug: blog._raw.flattenedPath }));
@@ -22,9 +23,9 @@ const BlogLayout = ({ params }: { params: { slug: string } }) => {
   return (
     <main className="max-w-5xl mx-auto py-5 md:py-10 px-5">
       <Navbar />
-      <article className="mx-auto py-8 px-5">
+      <article className="mx-auto py-8">
         <div className="mb-8 text-center">
-          <time dateTime={blog.date} className="mb-1 text-xs text-gray-600">
+          <time dateTime={blog.date} className="mb-1 text-sm text-gray-600">
             {format(parseISO(blog.date), "LLLL d, yyyy")}
           </time>
           <h1 className="text-3xl font-bold">{blog.title}</h1>
@@ -33,6 +34,7 @@ const BlogLayout = ({ params }: { params: { slug: string } }) => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <Image src={blog.image} alt="Top image" />
         <Markdown data={blog.body.code} />
       </article>
     </main>
