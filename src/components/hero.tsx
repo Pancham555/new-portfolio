@@ -35,11 +35,13 @@ export default function Hero() {
         </CardHeader>
         <CardContent>
           <CardDescription className="text-lg">
-            <p>
+            <span className="block">
               Hey there 👋, I&apos;m Lynx, an fullstack developer and an
               aspiring businessman.
-            </p>
-            <p>Here&apos;s my Email panchamb63@gmail.com for any queries!</p>
+            </span>
+            <span className="block">
+              Here&apos;s my Email panchamb63@gmail.com for any queries!
+            </span>
           </CardDescription>
         </CardContent>
       </Card>
