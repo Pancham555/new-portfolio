@@ -39,7 +39,7 @@ export default function Hero() {
               Hey there 👋, I&apos;m Lynx, an fullstack developer and an
               aspiring businessman.
             </p>
-            <p>Here's my Email panchamb63@gmail.com for any queries!</p>
+            <p>Here&apos;s my Email panchamb63@gmail.com for any queries!</p>
           </CardDescription>
         </CardContent>
       </Card>
